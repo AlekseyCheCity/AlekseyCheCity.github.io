@@ -1,0 +1,30 @@
+*, *:before, *:after {
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  position: relative;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+a, a:link, a:visited, a:hover, a:active, a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+input {
+  outline: none;
+}
+
+@font-face {
+  font-family: HPSimpl-reg;
+  src: url("../fonts/HPSimplified.eot");
+  src: url("../fonts/HPSimplified.eot?#iefix") format("embedded-opentype"), url("../fonts/HPSimplified.woff2") format("woff2"), url("../fonts/HPSimplified.woff") format("woff"), url("../fonts/HP implified.ttf") format("truetype"), url("../fonts/HPSimplified.svg#HP Simplified") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
