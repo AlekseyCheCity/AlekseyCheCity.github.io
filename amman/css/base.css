@@ -4,7 +4,6 @@
           box-sizing: border-box;
   margin: 0;
   position: relative;
-  background-color: red;
 }
 
 img {
@@ -19,6 +18,10 @@ a, a:link, a:visited, a:hover, a:active, a:focus {
 
 input {
   outline: none;
+}
+
+.for-overflow {
+  overflow-x: hidden;
 }
 
 @font-face {

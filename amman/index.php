@@ -13,7 +13,8 @@
   <link rel="icon" href="img/logo.png" type="image/x-icon">
 
   <!-- Import Styles -->
-  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/libs.min.css">
   <!-- Custom Styles -->
   <link rel="stylesheet" type="text/css" href="css/base.css">
   <link rel="stylesheet" type="text/css" href="css/common.css">
@@ -54,23 +55,24 @@
 <body>
   <div class="for-overflow">
     <!-- START Preloader -->
-      <!-- <div id="page-preloader"><span class="spinner"></span></div> -->
+      <div id="page-preloader"><span class="spinner"></span></div>
     <!-- Finish Preloader -->
-
-    <header>
-      
-    </header>
-
-    <main>
-      <section></section>
-    </main>
-
-    <footer>
-
-    </footer>
+    
+    <?php
+      include 'header.php';
+    ?>
+    
+    <?php
+      include 'main.php';
+    ?>
+    
+    <?php
+      include 'footer.php';
+    ?>
   </div><!-- for-overflow -->
   
-  <!-- SCRIPTS -->
+  <!-- Scripts -->
+  <script defer src="js/libs.min.js"></script>
   <script defer src="js/common.js"></script>
 </body>
 </html>
